@@ -1,8 +1,11 @@
+import { Nav } from "./components/Nav";
 
 
 export function App() {
   return (
-    <div className="text-5xl">Salm Tailwind Friends</div>
+    <div className="p-10 xl:px-24">
+        <Nav />
+    </div>
   )
 }
 
